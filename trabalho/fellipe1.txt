@@ -1,0 +1,10 @@
+fellipe1.txt
+fellipe2.txt
+fellipe26
+fellipe3.txt
+instrucoes.txt
+log
+pasta1
+pasta2
+pasta3
+trab1-2017.txt
