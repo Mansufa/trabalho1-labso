@@ -1,4 +1,4 @@
-luno: Fellipe Pinho 0050013136
+Aluno: Fellipe Pinho 0050013136
 Trabalho de Laboratorio de Sistemas Operacionais
 Professor: Alex Salgado
 1o. Semestre de 2017   Turno: Manhã
@@ -28,7 +28,7 @@ Resposta: mkdir fellipe26 | cp fellipe1.txt fellipe26/ | cp fellipe2.txt fellipe
 
 6 - A partir de sua pasta original, usando o comando find do linux, 
 diga quantos diretorios existem cujo nome começa com "pasta"?
-Resposta1 (comando linux usado): find -name pasta
+Resposta1 (comando linux usado): find -name pasta*
 
 Resposta2 (numero de diretorios encontrados) :3 
 
@@ -36,7 +36,7 @@ Resposta2 (numero de diretorios encontrados) :3
 7 - Qual o comando linux para: 
 Extrair todos os enderecos IP dos arquivos 
 que começam com "access.log" imprimindo um endereço IP por linha.
-Resposta: grep
+Resposta: grep '[0-9]\{3\}-[0-9]\{4\}' acces.log
 
 8 - listar o conteudo de seu diretorio e direcionar a saida 
-para o primeiro arquivo do item 4. ls fellipe26 > fellipe1.txt
+para o primeiro arquivo do item 4. ls . > fellipe1.txt
